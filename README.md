@@ -1,16 +1,144 @@
-# React + Vite
+# 🎬 Aether — Modern Movie Discovery Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aether is a sleek and modern movie discovery web application built using React, Vite, and Tailwind CSS.  
+Users can explore trending movies, search for their favorite films, and save movies to a personalized favorites list with a beautiful responsive UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 🔍 Search movies instantly
+- ❤️ Add & remove favorites
+- 🎨 Modern glassmorphism UI
+- ⚡ Fast performance with Vite
+- 📱 Fully responsive design
+- 🌌 Smooth animations & hover effects
+- 🧠 Context API state management
+- 🎬 TMDB Movie API integration
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend
+- React.js
+- Vite
+- Tailwind CSS
+- React Router DOM
+
+### State Management
+- React Context API
+
+### API
+- TMDB API
+
+---
+
+## 📸 Screenshots
+
+> Add your project screenshots here
+
+### Home Page
+![Home Screenshot](./src/assets/hero.png)
+
+---
+
+## 📂 Folder Structure
+
+```bash
+src/
+│
+├── assets/
+├── components/
+│   ├── Moviescard.jsx
+│   └── Navbar.jsx
+│
+├── context/
+│   └── MovieContext.jsx
+│
+├── pages/
+│   ├── Home.jsx
+│   └── Favourites.jsx
+│
+├── services/
+│   └── api.js
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/SanjayLadumor/Aether-MovieDiscoveryPlatform.git
+```
+
+Navigate into project folder:
+
+```bash
+cd Aether-MovieDiscoveryPlatform
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🌐 API Setup
+
+This project uses the TMDB API.
+
+Create a `.env` file in the root directory and add:
+
+```env
+VITE_TMDB_API_KEY=your_api_key_here
+```
+
+Get your API key from:
+
+https://www.themoviedb.org/
+
+---
+
+## 🎯 Future Improvements
+
+- 🎥 Movie details page
+- ⭐ Ratings & reviews
+- 🎭 Genre filtering
+- 📺 Trending & top-rated sections
+- 🔐 Authentication system
+- ☁️ Backend integration
+- 🎬 Watchlist functionality
+
+---
+
+## 👨‍💻 Author
+
+### Sanjay Ladumor
+
+- GitHub: https://github.com/SanjayLadumor
+- LinkedIn: https://www.linkedin.com/in/sanjayladumor/
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+# ⭐ If you liked this project, consider giving it a star on GitHub!
