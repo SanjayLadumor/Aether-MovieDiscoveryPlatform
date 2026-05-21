@@ -34,15 +34,6 @@ Users can explore trending movies, search for their favorite films, and save mov
 
 ---
 
-## 📸 Screenshots
-
-> Add your project screenshots here
-
-### Home Page
-![Home Screenshot](./src/assets/hero.png)
-
----
-
 ## 📂 Folder Structure
 
 ```bash
