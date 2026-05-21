@@ -18,6 +18,12 @@ Users can explore trending movies, search for their favorite films, and save mov
 
 ---
 
+## Live Demo
+
+aether-movie-discovery-platform.vercel.app
+
+---
+
 ## 🚀 Tech Stack
 
 ### Frontend
